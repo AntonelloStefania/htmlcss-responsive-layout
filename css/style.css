@@ -570,9 +570,13 @@ footer{
         display: flex;
     }
 
+    #first-sec-text{
+        padding: 20px;
+    }
+
     #first-sec-img img{
         width: 100%;
-        padding-top: 50px;
+        padding-top: 105px;
     }
     /* fine prima sezione */
     /* seconda sezione "strategic planning" */

@@ -6,7 +6,7 @@
 
 body{
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 /* regole generali (mobile-first) */
 
@@ -91,12 +91,13 @@ header{
     border-radius: 20px;
     padding: 10px 10px;
     width: 70%;
+    letter-spacing: 2px;
 }
 
 .double-col-content h3, #functions .col-30-content h3{
     color:#0084FD;
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .double-col-content{
@@ -134,7 +135,7 @@ header{
 /* fine prima sezione */
 
 /* seconda sezione "strategic planning"*/
-#strategic-planning .row{
+#strategic-planning{
     background-color: #9792E4;
 }
 
@@ -193,15 +194,43 @@ header{
 /* fine seconda sezione */
 
 /* terza sezione "testimonials" */
-#testimonials .row{
+/* #testimonials .row{
     background-color: lightgreen;
-}
+} */
 
 .col-100{
     width:calc(100% - 20px);
-    margin:10px;
-    height: calc(100% / 4 - 20px);
-    border: 1px dashed blue;
+    margin:30px 10px;
+    /* height: calc(100% / 4 - 20px);
+    border: 1px dashed blue; */
+    text-align: center;
+    line-height: 2em;
+}
+
+.col-100-content h3{
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+.col-100-content h2{
+    font-size: 35px;
+    color:#9792E4;
+}
+
+.col-100-content p{
+    margin: 30px 0;
+}
+
+.col-100-cards{
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 30px;
+    color: white;
+}
+
+.col-100-img{
+    display: flex;
+    justify-content: center;
 }
 
 #testimonials img{
@@ -213,8 +242,57 @@ header{
 /* fine terza sezione */
 
 /* quarta sezione "benefits" */
-#benefits .row{
-    background-color: orange;
+#benefits{
+    background-color: #9792E4;
+}
+
+#benefits h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.benefits-cards{
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.benefits-cards h3{
+    color: #9792E4;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+.benefits-cards p{
+    line-height: 2em;
+    color: #5A6E7F;
+    margin: 30px 0;
+}
+
+.benefits-cards button{
+    background-color: #9792E4;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 700;
+    width: 50%;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.numbers{
+    margin-bottom: 30px;
+}
+
+.numbers i{
+    font-size: 50px;
+    color: #9792E4;
+    margin: 3px;
 }
 
 /* quinta sezione "about-us" */

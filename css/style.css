@@ -67,7 +67,7 @@ header{
     height: 100px;
 }
 
-.first-sec-img img{
+#first-sec-img img{
     width: 40%;
 }
 
@@ -83,6 +83,10 @@ header{
     background-color: lightblue;
     margin: 10px;
 }
+
+#strategic-planning img{
+    width: 40%;
+}
 /* fine seconda sezione */
 
 /* terza sezione "testimonials" */
@@ -95,6 +99,13 @@ header{
     margin:10px;
     height: calc(100% / 4 - 20px);
     border: 1px dashed blue;
+}
+
+#testimonials img{
+    width: 160px;
+    border-radius: 50%;
+    height: 150px;
+    
 }
 /* fine terza sezione */
 
@@ -114,6 +125,10 @@ header{
     width: calc(100% - 20px);
     height: calc(70% - 20px);
     border: 1px solid black;
+}
+
+#about-us img{
+    width: 40%;
 }
 
 /* fine quinta sezione */

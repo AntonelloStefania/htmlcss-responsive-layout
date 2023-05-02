@@ -12,7 +12,6 @@ body{
 
 /* header */
 header{
-    /* height: 100px; */
     background-color: #0083FD;
 }
 
@@ -62,7 +61,6 @@ header{
 .row{
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
 }
 
 /* prima sezione "functions" */
@@ -74,8 +72,6 @@ header{
     margin: 10px;
     background-color: #B5DDFF;
     border-radius: 20px;
-    /* border: 1px solid black; */
-    /* height: 100px; */
 }
 
 #first-sec-text{
@@ -204,8 +200,6 @@ header{
 .col-100{
     width:calc(100% - 20px);
     margin:30px 10px;
-    /* height: calc(100% / 4 - 20px);
-    border: 1px dashed blue; */
     text-align: center;
     line-height: 2em;
 }
@@ -240,6 +234,7 @@ header{
     width: 150px;
     border-radius: 50%;
     height: 150px;
+    object-fit: cover;
     
 }
 /* fine terza sezione */
@@ -410,10 +405,6 @@ footer{
 }
 
 .footer-content{
-    /* background-color: green;
-    margin: 30px;
-    width: calc(100% - 60px);
-    height: calc(100% - 60px); */
     color: white;
     padding-top: 50px;
     text-align: center;

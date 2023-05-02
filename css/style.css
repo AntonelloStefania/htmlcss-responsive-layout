@@ -3,11 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
 /* regole generali (mobile-first) */
 
 /* header */
 header{
-    height: 100px;
+    /* height: 100px; */
     background-color: blue;
 }
 
@@ -53,39 +58,137 @@ header{
 .row{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* prima sezione "functions" */
-#functions .row{
+/* #functions .row{
     background-color: aqua;
+} */
+
+.double-col, #functions .col-30{
+    margin: 10px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    /* height: 100px; */
 }
 
-.double-col, .col-30{
-    margin: 10px;
-    border: 1px solid black;
-    height: 100px;
+#first-sec-text{
+    padding:20px 50px;
+}
+
+#first-sec-img{
+    display: flex;
+    transform: translateX(20%);
+}
+
+#app-store-button{
+    background-color: #0084FD;
+    color: white;
+    font-weight: 800;
+    border: transparent;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 70%;
+}
+
+.double-col-content h3, #functions .col-30-content h3{
+    color:#0084FD;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.double-col-content{
+    position:relative
+}
+
+.double-col-content button{
+    margin: 30px 0;
+}
+
+.double-col-content, #functions .col-30-content{
+    line-height: 2em;
+    color: #5A6E7F;
+    font-weight: 700;
+}
+
+.double-col-content i{
+    color: white;
+}
+
+#functions .col-30-content{
+    text-align: center;
+    padding: 30px;
+}
+
+.col-30-content i{
+    font-size: 100px;
+    color: #0084FD;
 }
 
 #first-sec-img img{
-    width: 40%;
+    width: 50%;
 }
 
 /* fine prima sezione */
 
 /* seconda sezione "strategic planning"*/
 #strategic-planning .row{
-    background-color: blueviolet;
+    background-color: #9792E4;
 }
 
 .col-50{
     height: calc(50% - 20px);
-    background-color: lightblue;
     margin: 10px;
 }
 
+.col-50-text{
+    margin: 30px 15px;
+}
+
+.col-50-text-1{
+    color: white;
+}
+
+.col-50-text-2{
+    text-align: center;
+}
+
+.col-50-text-2 h3{
+    font-size: 20px;
+}
+
+.col-50-text-2 p{
+    margin: 30px 0;
+    font-style: italic;
+}
+
+.col-50-text-2 i{
+    background-color: #9792E4;
+    margin-bottom: 40px;
+    padding: 10px 12px ;
+    border-radius: 50%;
+}
+
+.col-50-content-2{
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.col-50-text h2{
+    margin: 60px 0;
+    font-size: 35px;
+}
+
+.col-50-text p{
+    line-height: 2em;
+}
+
 #strategic-planning img{
-    width: 40%;
+    width: 90%;
+    margin: 40px 15px;
 }
 /* fine seconda sezione */
 

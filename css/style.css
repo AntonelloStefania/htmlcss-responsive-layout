@@ -431,7 +431,7 @@ footer{
 /* TABLET */
 @media  screen and (min-width:768px) {
     body{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .container{
@@ -454,7 +454,7 @@ footer{
         width: calc(100% / 3 - 20px);
     }
     .double-col-content h3, #functions .col-30-content h3{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #functions .col-30-content{
@@ -494,8 +494,8 @@ footer{
     }
 
     #testimonials img{
-        width: 170px;
-        height: 170px;
+        width: 190px;
+        height: 190px;
     }
     /* fine terza sezione */
     /* quarta sezione "benefits" */
@@ -521,7 +521,7 @@ footer{
         width: calc(70% - 20px);
     }
 
-        #about-us .col-70-content{
+    #about-us .col-70-content{
         padding-right:50px;
     }
     
@@ -539,7 +539,7 @@ footer{
     }
 
     .about-us-col-30 p {
-        font-size:20px;
+        font-size:24px;
     }
 }
 /* fine quinta sezione */
@@ -581,7 +581,7 @@ footer{
     }
     .col-50-content-2{
         position: relative;
-        top: 125px;
+        top: 155px;
     }
 
     #strategic-planning-img-2{
@@ -608,7 +608,7 @@ footer{
 
     /* seconda sezione "strategic planning */
     .col-50-content-2{
-        top:150px
+        top:190px
     }  
 
     /* quinta sezione "about us" */

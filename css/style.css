@@ -543,6 +543,10 @@ footer{
 /* DESKTOP */
 
 @media screen and (min-width:991px) {
+    body{
+        font-size: 18px;
+    }
+
     .container{
         max-width: 950px;
     }
@@ -550,7 +554,9 @@ footer{
     .extended-menu{
         display: block;
     }
-
+    .extended-menu .menu-button, #start-button{
+        font-size: 18px;
+    }
     .hamburger{
         display: none;
     }
